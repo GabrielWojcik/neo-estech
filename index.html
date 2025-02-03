@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>NEO Estech</title>
+</head>
+<body>
+    <div class="navbar-container">
+            <img src="./assets/logo.svg" alt="">
+        <div>
+            <ul class="menu-options">
+                <li id="option1" class="menu-item">Verifica Anagramas</li>
+                <li id="option2" class="menu-item">Linked List</li>
+            </ul>
+        </div>
+    </div>
+
+    <div>
+        <form class="inputs-container" id="anagramForm">
+            <h1>Anagramas</h1>
+            <label for="texto1">Digite o primeiro texto</label>
+            <input id="texto1" type="text" placeholder="Texto 1" required  />
+        
+            <label for="texto2">Digite o segundo texto</label>
+            <input id="texto2" type="text" placeholder="Texto 2" required  />
+        
+            <button type="submit">Verificar Anagramas</button>
+        </form>
+        <p id="result"></p>
+
+        
+    </div>
+</body>
+</html>
+
+<script type="text/javascript" src="/script.js"></script>
