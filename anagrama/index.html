@@ -10,34 +10,34 @@
     <title>NEO Estech</title>
 </head>
 <body>
-    <div class="navbar-container">
-            <img src="./assets/logo.svg" alt="Logo Neo Estech">
-        <div>
-            <ul class="menu-options">
-                <li id="option1" class="menu-item">Verifica Anagramas</li>
-                <li id="option2" class="menu-item">Linked List</li>
-            </ul>
+        <div class="navbar-container">
+                <img src="./assets/logo.svg" alt="Logo Neo Estech">
+            <div>
+                <ul class="menu-options">
+                    <li id="option1" class="menu-item">Verifica Anagramas</li>
+                </ul>
+            </div>
         </div>
-    </div>
-
-    <div class="container">
-        <form class="inputs-container" id="anagramForm">
-            <h1>Anagramas</h1>
-            <label for="texto1">Digite o primeiro texto</label>
-            <input id="texto1" type="text" placeholder="Texto 1" required  />
-        
-            <label for="texto2">Digite o segundo texto</label>
-            <input id="texto2" type="text" placeholder="Texto 2" required  />
-        
-            <button type="submit">Verificar Anagramas</button>
-            <p id="result"></p>
-        </form>
-        <div>
-            <p id="title">Histórido de Anagramas</p>
-            <div id="anagramas-container"></div>
+        <div class="container">
+            <form class="inputs-container" id="anagramForm">
+                <h1>Anagramas</h1>
+                <div class="inputs">
+                    <label for="texto1">Digite o primeiro texto</label>
+                    <input id="texto1" type="text" placeholder="Texto 1" required  />
+                </div>
+                <div class="inputs">
+                    <label for="texto2">Digite o segundo texto</label>
+                    <input id="texto2" type="text" placeholder="Texto 2" required  />
+                </div>
+            
+                <button type="submit">Verificar Anagramas</button>
+                <p id="result"></p>
+            </form>
+            <div class="history-container">
+                <h1 id="title">Histórico de Anagramas</h1>
+                <div id="anagramas-container"></div>
+            </div>
         </div>
-
-    </div>
 </body>
 </html>
 
