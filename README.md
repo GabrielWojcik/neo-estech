@@ -15,6 +15,7 @@ Template Anagramas:
 ![Screenshot_7](https://github.com/user-attachments/assets/bd03e5d0-9b71-40f6-8ebe-8e800c4e77d6)
 
 Código linked-list:
+
 class ListNode {
     val: number;
     next: ListNode | null;
